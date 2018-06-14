@@ -1,0 +1,11 @@
+doctype html
+html
+ head
+  include head.pug	
+  meta(charset='utf-8')
+  title Hello #{login}
+  link(rel='stylesheet', href='/static/css/style.css')
+ body
+  main
+   p HELLO #{login}!   
+  include copy.pug
